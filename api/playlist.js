@@ -1,7 +1,7 @@
 const https = require("https");
 const http = require("http");
 
-const M3U_URL = "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u";
+const M3U_URL = "https://github.com/drmlive/fancode-live-events/blob/main/fancode.m3u";
 
 function fetchUrl(targetUrl, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
